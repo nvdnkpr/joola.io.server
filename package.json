@@ -1,14 +1,14 @@
 {
-	"name": "joola.io",
+	"name": "joola.io.server",
 	"preferGlobal": false,
-	"version": "3.0.3",
+	"version": "3.0.0",
 	"author": "Joola <info@joo.la>",
-	"description": "The open-source data visualization framework",
+	"description": "joola.io's Analytics Framework Engine",
 	"engine": "node >= 0.10.x",
 	"private": false,
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/joola/joola.io.git"
+		"url": "https://github.com/joola/joola.io.server.git"
 	},
 	"contributors": [
 		{
@@ -35,7 +35,7 @@
 		"coveralls": "mocha --require blanket --reporter mocha-lcov-reporter | node ./node_modules/coveralls/bin/coveralls.js"
 	},
 	"bin": {
-		"joola.io": "./bin/joola.io"
+		"joola.io": "./bin/joola.io.server"
 	},
 	"keywords": [
 		"data",
